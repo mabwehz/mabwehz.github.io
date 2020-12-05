@@ -1,0 +1,13 @@
+
+body {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.--fancy-username-text {
+    font-family: 'Courier New', Courier, monospace;
+}
