@@ -100,11 +100,37 @@ body {
 }
 
 .theme-btn {
-  padding: 0.5rem 0.9rem;
-  border: 1px solid rgb(255 255 255 / 65%);
+  display: inline-grid;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
+  place-items: center;
+  /* border: 1px solid rgb(255 255 255 / 65%); */
   border-radius: 999px;
-  background: rgb(255 255 255 / 10%);
+  /* background: rgb(255 255 255 / 10%); */
   cursor: pointer;
+}
+
+.theme-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.75;
+}
+
+.theme-icon .icon-sun {
+  display: none;
+}
+
+.theme-btn[aria-pressed="true"] .icon-sun {
+  display: initial;
+}
+
+.theme-btn[aria-pressed="true"] .icon-moon {
+  display: none;
 }
 
 .theme-btn:hover {
@@ -296,10 +322,6 @@ footer {
   .site-nav a,
   .theme-btn {
     font-size: 0.875rem;
-  }
-
-  .theme-btn {
-    padding: 0.4rem 0.7rem;
   }
 
   main {
