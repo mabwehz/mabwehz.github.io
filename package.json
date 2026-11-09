@@ -1,10 +1,13 @@
 {
-  "name": " ",
-  "version": "0.0.1",
-  "description": "",
-  "keywords": "",
+  "name": "Mabweh Website",
+  "version": "1.0.0",
+  "description": "Personal website for Mabweh",
+  "keywords": "portfolio, personal website, web development",
   "license": "",
-  "author": "",
+  "author": "Mabweh",
+  "engines": {
+    "node": "26.x"
+  },
   "scripts": {
     "build": "parcel build index.html",
     "dev": "parcel index.html --open",
