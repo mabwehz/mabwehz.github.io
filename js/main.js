@@ -4,4 +4,5 @@ toggleBtn.addEventListener('click', () => {
     const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
     document.documentElement.setAttribute('data-theme', newTheme);
     toggleBtn.setAttribute('aria-pressed', String(newTheme === 'dark'));
+    toggleBtn.setAttribute('aria-label', `Switch to ${newTheme === 'dark' ? 'light' : 'dark'} theme`);
 });
