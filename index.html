@@ -1,59 +1,148 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
 
 <head>
   <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
+  <title>Mabweh Kwasen | Senior Software Engineer</title>
+  <meta name="description" content="Mabweh Kwasen is a senior software engineer based in Kuala Lumpur, Malaysia.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+  <meta property="og:title" content="Mabweh Kwasen | Senior Software Engineer">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Portfolio and experience of Mabweh Kwasen, Senior Software Engineer.">
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/index.css">
 
-  <meta name="theme-color" content="#fafafa">
+  <meta name="theme-color" content="#f8fafc">
 </head>
 
 <body>
+  <section class="hero" id="home" aria-labelledby="profile-name">
+    <img class="hero-image" src="img/hero.svg" alt="">
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#home" aria-current="page">Home</a>
+      <a href="#projects">Projects</a>
+      <button class="theme-btn" id="themeToggle" type="button" aria-label="Change color theme"
+        aria-pressed="false">Theme changer</button>
+    </nav>
 
-  <!-- Add your site or application content here -->
-  <main>
-
-    <div class="about-wrapper">
-      <h1>Hi, my name is Mabweh</h1>
-      <p>I work as a Software Engineer. I am passionate about puzzles and enjoy learning about technology.</p>
-      <p>You can find me on <a href="http://github.com/mabwehz">Github</a>, <a href="http://codepen.com/mabwehz">Codepen</a> and <a href="http://twitter.com/mabwehz">Twitter</a></p>
+    <div class="hero-content">
+      <div class="profile-title">
+        <h1 id="profile-name">Mabweh Kwasen</h1>
+        <p>Senior Software Engineer</p>
+        <div class="contacts">
+          <span class="location">Kuala Lumpur, Malaysia</span>
+          <a href="mailto:imabweh@gmail.com">Email</a>
+          <a href="https://www.linkedin.com/in/mabweh">LinkedIn</a>
+          <a href="https://github.com/mabwehz">GitHub</a>
+          <a href="https://codepen.io/mabwehz">CodePen</a>
+        </div>
+      </div>
+      <p class="hero-intro">I enjoy solving puzzles and learning about technology.</p>
     </div>
-    
+  </section>
 
+  <main>
+    <section id="skills" aria-labelledby="skills-title">
+      <h2 id="skills-title">Technical Core</h2>
+      <div class="skills-grid">
+        <span class="badge core">HTML</span>
+        <span class="badge core">CSS</span>
+        <span class="badge core">JavaScript</span>
+        <span class="badge core">TypeScript</span>
+        <span class="badge core">Angular</span>
+        <span class="badge core">Java</span>
+        <span class="badge core">Spring Boot</span>
+        <span class="badge core">PostgreSQL</span>
+        <span class="badge core">MySQL</span>
+      </div>
+      <div class="skills-grid">
+        <span class="badge">Linux</span>
+        <span class="badge">REST APIs</span>
+        <span class="badge">Kafka</span>
+        <span class="badge">AWS</span>
+        <span class="badge">Docker</span>
+        <span class="badge">Kubernetes</span>
+        <span class="badge">Python</span>
+        <span class="badge">NodeJS</span>
+      </div>
+    </section>
+
+    <section id="experience" aria-labelledby="experience-title">
+      <h2 id="experience-title">Professional Milestones</h2>
+
+      <article class="timeline-item">
+        <div class="timeline-header">
+          <div>
+            <h3 class="role-title">Senior Software Engineer &amp; Interim Lead</h3>
+            <p class="company">Boost Holding Sdn Bhd</p>
+          </div>
+          <span class="date">May 2025 – Present</span>
+        </div>
+        <ul>
+          <li>Architected and deployed a high-throughput Kafka consumer service automating digital onboarding for SME
+            merchants in under 5 minutes.</li>
+          <li>Functioned as technical lead for an Agile team of 9 cross-functional engineers managing workflows.</li>
+          <li>Assumed interim engineering leadership during manager absence, directing 7 developers and QA engineers
+            over 2 months.</li>
+        </ul>
+      </article>
+
+      <article class="timeline-item">
+        <div class="timeline-header">
+          <div>
+            <h3 class="role-title">Full-Stack Software Engineer</h3>
+            <p class="company">Boost Holding Sdn Bhd</p>
+          </div>
+          <span class="date">Apr 2022 – May 2025</span>
+        </div>
+        <ul>
+          <li>Designed a web store for POS hardware procurement integrated with an internal payment gateway,
+            increasing sales by 50%.</li>
+          <li>Modernized a legacy billing system to achieve 100% compliance with IRBM e-invoicing mandates.</li>
+          <li>Spearheaded development of a robust Merchant Onboarding Portal featuring eKYC and Docusign integrations.
+          </li>
+        </ul>
+      </article>
+
+      <article class="timeline-item">
+        <div class="timeline-header">
+          <div>
+            <h3 class="role-title">Full-Stack Software Engineer</h3>
+            <p class="company">Moving Walls Sdn Bhd</p>
+          </div>
+          <span class="date">Jul 2017 – Mar 2022</span>
+        </div>
+        <ul>
+          <li>Co-developed an Agile e-commerce and registry platform for Media Owners across 20+ countries managing
+            1,000+ billboards.</li>
+          <li>Automated business pipelines using Python, saving operational teams multiple hours weekly.</li>
+          <li>Deployed to Nigeria to onboard a key strategic business partner, securing over $100K in new investment.
+          </li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-title">
+      <h2 id="projects-title">Featured Project</h2>
+      <article class="project-card">
+        <h3>Learn Ron</h3>
+        <p>A dedicated web application built to facilitate language learning for the Ron language.</p>
+      </article>
+    </section>
   </main>
 
   <footer>
-    <center>&copy; 2022 - Mabweh Isaac Kwasen</center> 
+    <p>&copy; 2022 - Mabweh Isaac Kwasen</p>
   </footer>
+
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-80YVGW5RSZ"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-80YVGW5RSZ');
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>
